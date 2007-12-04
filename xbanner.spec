@@ -4,7 +4,7 @@ Version:	1.31
 Release:	%mkrel 21
 License:	GPL
 Group:		Graphical desktop/Other
-BuildRequires: XFree86-devel xpm-devel imake
+BuildRequires: X11-devel xpm-devel imake
 
 Url:		http://www.hijinks.com/~spade/linux/XBanner/
 Source:		ftp://physics.fullerton.edu/pub/Linux/XBanner/XBanner1.31.tar.bz2
