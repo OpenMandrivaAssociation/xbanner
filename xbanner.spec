@@ -13,6 +13,7 @@ Source2:	xdm_bg.xpm.bz2
 Patch:		xbanner-1.3-rh.patch
 Patch1:		XBanner-asnonroot.patch
 
+Buildroot:	%{_tmppath}/xbanner-root
 
 %description
 The XBanner program allows the display of text, patterns and images
