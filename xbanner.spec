@@ -1,7 +1,7 @@
 Name:		xbanner
 Summary:	A program for customizing the look of the standard XDM interface
 Version:	1.31
-Release:	%mkrel 23
+Release:	%mkrel 24
 License:	GPL
 Group:		Graphical desktop/Other
 BuildRequires: X11-devel xpm-devel imake
