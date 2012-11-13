@@ -1,0 +1,24 @@
+--- XBanner1.31/Makefile.patch	1997-05-15 22:38:25.000000000 +0200
++++ XBanner1.31/Makefile	2010-02-20 18:23:30.000000000 +0100
+@@ -15,10 +15,10 @@
+ GZIP	=gzip
+ 
+ # Binary directory for make install
+-BINDIR	=/usr/local/bin/X11
++BINDIR	= $(ROOT)/usr/X11R6/bin
+ 
+ # Library directories for Linux
+-XLIBDIR	=/usr/X11R6/lib
++XLIBDIR	= /usr/X11R6/lib
+ 
+ # Include directory for gcc (if you get X11/Xlib.h: file not found)
+ #INCDIR =-I/usr/X11R6/include
+@@ -34,7 +34,7 @@
+ 	$(CC) $(INCDIR) $(CFLAGS) $(XPM) -c $*.c
+ 
+ # Linux CFLAGS (actually generic gcc)
+-CFLAGS=-Wall -O2
++CFLAGS=$(RPM_OPT_FLAGS)
+ 
+ # Want static binaries?
+ #CFLAGS=-Wall -O2 -static

@@ -1,0 +1,12 @@
+--- ./Imakefile.chmou	Thu May 15 22:38:25 1997
++++ ./Imakefile	Wed Jan 12 17:34:15 2000
+@@ -23,6 +23,6 @@
+ SingleProgramTarget(random_effect, random_effect.o , /**/ , /**/ )
+ 
+ XCOMM Install directives
+-InstallTarget(install,xbanner, --strip --mode "0755" --owner root --group bin , $(LOCALBINDIR))
+-InstallTarget(install,freetemp, --strip --mode "0755" --owner root --group bin , $(LOCALBINDIR))
+-InstallTarget(install,xb_check, --strip --mode "0755" --owner root --group bin , $(LOCALBINDIR))
++InstallTarget(install,xbanner, --strip --mode "0755" , $(LOCALBINDIR))
++InstallTarget(install,freetemp, --strip --mode "0755" , $(LOCALBINDIR))
++InstallTarget(install,xb_check, --strip --mode "0755" , $(LOCALBINDIR))
