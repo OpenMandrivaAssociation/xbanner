@@ -70,3 +70,39 @@ rm -rf $RPM_BUILD_ROOT
 %doc samples docs/*
 
 
+
+
+%changelog
+* Wed Dec 08 2010 Oden Eriksson <oeriksson@mandriva.com> 1.31-26mdv2011.0
++ Revision: 615492
+- the mass rebuild of 2010.1 packages
+
+* Sat Feb 20 2010 Funda Wang <fwang@mandriva.org> 1.31-25mdv2010.1
++ Revision: 508723
+- rediff patch
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tv@mandriva.org> 1.31-24mdv2009.0
++ Revision: 262255
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 1.31-23mdv2009.0
++ Revision: 256587
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.31-21mdv2008.1
++ Revision: 136576
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - buildrequires X11-devel instead of XFree86-devel
+
+
+* Wed Nov 22 2006 Lenny Cartier <lenny@mandriva.com> 1.31-21mdv2007.0
++ Revision: 86218
+- Adjust buildrequires
+- Import xbanner
+
