@@ -6,7 +6,7 @@ License:	GPL
 Group:		Graphical desktop/Other
 BuildRequires: X11-devel xpm-devel imake
 
-Url:		http://www.hijinks.com/~spade/linux/XBanner/
+Url:		https://www.hijinks.com/~spade/linux/XBanner/
 Source:		ftp://physics.fullerton.edu/pub/Linux/XBanner/XBanner1.31.tar.bz2
 Source1:	XBanner.mdkdefaults.bz2
 Source2:	xdm_bg.xpm.bz2
